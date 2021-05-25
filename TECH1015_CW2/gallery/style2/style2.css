@@ -1,0 +1,14 @@
+/* gallery transition */
+*
+.gallery img{
+transition: 1s;
+}
+/* gallery filter */
+.gallery img{
+  filter: drop-shadow(100%);
+}
+/* gallery filter and transformation */
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
